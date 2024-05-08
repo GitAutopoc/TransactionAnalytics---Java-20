@@ -1,0 +1,10 @@
+Problem Statement
+Create a Java program named "TransactionAnalytics" that defines a record for a Transaction with properties id (integer), amount (double), currency (string), and timestamp (long representing epoch time).
+
+The program will include a function that:
+
+Accepts a list of Transaction records along with a specific currency and a time range (start and end epoch time).
+Uses parallel processing to filter transactions that occur within the specified time range and are in the given currency.
+Calculates the average amount of the filtered transactions.
+Returns the result as an Optional<Double> to elegantly handle cases where no transactions meet the criteria.
+This application aims to provide a robust solution for analyzing transaction data, making it ideal for financial analyses or time-sensitive data processing tasks. It leverages modern Java features such as records for data modeling, parallel streams for efficient data processing, and optional types for improved error handling.
